@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">SURVEY FORM</h1>
+    <form action="#" method="post" id="survey-form">
+        <label for="user-name">
+            Name : <input type="text"  id="user-name" required>
+        </label>
+        <label for="age">
+            Age : <input type="number" min="10" max="99" id="age" required>
+        </label>
+        <label for="Phone">
+            Phone No : <input type="number"  id="Phone" minlength="10" maxlength="10" required>
+        </label>
+        <label for="email">
+            Email : <input type="email"  id="email" required>
+        </label>
+        <label for="gender">
+            MALE <input type="radio" name="gender" id="male">
+            FEMALE <input type="radio" name="gender" id="female">
+        </label>
+        <label for="occupation">
+            Occupation : 
+            <select id="occupation">
+                <option value="Select one">Select one</option>
+                <option value="agriculture">agriculture</option>
+                <option value="student">student</option>
+                <option value="private">private</option>
+            </select>
+        </label>
+        <label for="salary">
+            Salary : <input type="number"  id="salary">
+        </label>
+        <label for="owned">
+            <p>Tick the products that you own</p>
+            House<input type="checkbox" id="house">
+            MotorBike<input type="checkbox" id="bike">
+            Computer<input type="checkbox" id="comp">
+            Refrigirator<input type="checkbox" id="ref">
+        </label>
+        <label for="known">
+            <p>How did you know about us</p>
+            YouTube ads<input type="radio" name="found">
+            Friend & Relatives<input type="radio" name="found">
+            Google search<input type="radio" name="found">
+            By Yourself<input type="radio" name="found">
+            Other<input type="radio" name="found">
+        </label>
+        <label for="submit">
+            <input type="submit" value="Submit" id="submit">
+        </label>
+    </form>
+</body>
+</html>
+<!-- 
+    survey form
+    name
+    age
+    phone no
+    email
+    occupation
+    salary
+
+ -->
